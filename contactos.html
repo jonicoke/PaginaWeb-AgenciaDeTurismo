@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de turismo</title>
+    <link rel="stylesheet" href="css/styleContactos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+    <body>
+        <section id="principal">
+            <header id="encabezado">
+                <h1 id="titulo">AGENCIA DE TURISMO COKE</h1> 
+                <img id="logo"src="images/logo.png" alt="Logo de la Agencia" width="300" height="150">
+            </header>
+            <nav class="navegacion">
+                <ul>
+                    <li><a class="nav-tx" href="index.html">Inicio</a></li>
+                    <li><a class="nav-tx" href="destinos.html">Destinos</a></li>
+                    <li><a class="nav-tx" href="contactos.html">Contacto</a></li>
+                </ul>
+            </nav> 
+            <main>     
+                <section id="contacto">
+                    <h2>Consultas o Pre-ventas</h2>
+                    <form action="#" method="POST">
+                        <div class="formulario-grupos">
+                            <label class="tipo-c" for="nombre" >Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo..." required>
+                        </div>
+                        <div class="formulario-grupos">
+                            <label class="tipo-c" for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo" placeholder="Correo electrónico..."required>
+                        </div>
+                        <div class="formulario-grupos">
+                            <label class="tipo-c" for="destino">Destino deseado:</label>
+                            <input type="text" id="destino" name="destino" list="paises" placeholder="Destino..."required>
+                            <datalist id="paises">
+                                <option value="Miami, Florida.">
+                                <option value="Lima, Perú">
+                                <option value="Francia, París">
+                            </datalist>
+                        </div>
+                        <div class="formulario-grupos">
+                            <label class="tipo-c" for="fecha">Fecha estimada:</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                        </div>
+                        <label class="tipo-c">Tipo de viaje:</label>
+                        <div class="radios">
+                            <label><input type="radio" name="tipo_viaje" value="aventura" required> Aventura</label>
+                            <label><input type="radio" name="tipo_viaje" value="descanso"> Descanso</label>
+                            <label><input type="radio" name="tipo_viaje" value="cultural"> Cultural</label>
+                            <label><input type="radio" name="tipo_viaje" value="familiar"> Familiar</label>
+                        </div>
+                        <label class="tipo-c">Intereses:</label>
+                        <div class="checkboxs">
+                            <label><input type="checkbox" name="intereses" value="excursiones"> Excursiones</label>
+                            <label><input type="checkbox" name="intereses" value="gastronomía"> Gastronomía</label>
+                            <label><input type="checkbox" name="intereses" value="alojamiento"> Alojamiento</label>
+                        </div>
+                        <label class="tipo-c" id="comentario"for="comentarios">Comentarios:</label>
+                        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe aquí tus dudas o pedidos..."></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+                <div class="info-contacto">
+                    <h3>Información de contacto</h3>
+                    <p><b>Dirección:</b> Obelisco Av. Corrientes, C1035 Cdad. Autónoma de Buenos Aires</p>
+                    <p><b>Teléfono:</b> +54 11 1234-5678</p>
+                    <p><b>Horarios:</b> Lunes a Viernes de 9:00 a 18:00</p>
+                    <div class="redes">
+                        <h3>Redes Sociales</h3>
+                        <a href="https://facebook.com" target="_blank">Facebook</a>
+                        <a href="https://instagram.com" target="_blank">Instagram</a>
+                        <a href="https://twitter.com" target="_blank">Twitter</a>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <p>&copy; Jonathan Giacomini. DNI: 45615029. Todos los derechos reservados.</p>
+            </footer>
+        </section>
+    </body>
+</html>

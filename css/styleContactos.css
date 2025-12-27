@@ -1,0 +1,224 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+#principal {
+    background-image: url(../images/wallpaper-agencia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
+#encabezado {
+    background-color: #240c5c63;
+    padding: 20px;
+    
+}
+
+#titulo {
+    font-size: 40px;
+    color: #1c0a5e;
+    text-shadow: 1px 15px 5px rgba(255, 255, 255, 0.1);
+    display: grid;
+    justify-content: left;
+    padding-left: 5.5rem;
+}
+#logo {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    display: grid;
+    left: 55%;
+    top: 50px;
+}
+ul {  
+  display: flex;
+  gap: 5rem; 
+  padding: 6px 0;
+  list-style: none; 
+  margin: 0;
+}
+.nav-tx:first-child{
+    margin-left: 50px;
+}
+.navegacion {
+    background-color: #1d0c5c63;
+    width: 680px;
+    padding: 5px;
+    border-radius: 0 0 30px 0;
+}
+.nav-tx {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-shadow: #201c57 1px 5px 9px;
+    padding: 10px 20px;
+}
+.nav-tx:hover {
+    text-shadow: rgb(255, 255, 255) 1px 12px 55px;
+    border-bottom: 2px solid rgba(183, 171, 252, 2);
+    
+}
+#contacto {
+    background-color: #1d0c5c63;
+    box-shadow: 1px 1px 10px rgb(93, 106, 209);
+    border-radius: 20px;
+    padding: 5px 50px;
+    margin: 20px;
+    text-align: center;
+    width: 700px;
+    height: 600px;
+}
+.info-contacto{
+    background-color: #1d0c5c63;
+    box-shadow: 1px 1px 10px rgb(93, 106, 209);
+    border-radius: 20px;
+    padding: 5px 50px;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    height: 420px;
+    transform: translateX(220%) translateY(-135%);
+    position: absolute;
+}
+.card {
+  box-shadow: 1px 10px 50px rgb(93, 106, 209);
+  background-color: #1d0c5c63;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  width: 250px;
+}
+b,a {
+    text-decoration: none;
+    color: #a7b3f8;
+    text-shadow: 1px 15px 5px rgba(255, 255, 255, 0.1);
+}
+.redes {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+a:hover {
+    color: #6244e7;
+}
+  textarea {
+    resize: none;
+  }
+h2 {
+    color: #1c0a5e;
+    text-shadow: 1px 8px 2px rgba(102, 102, 143, 0.521);
+}
+h3 {
+    color: #937ce7;
+    text-shadow: 1px 8px 2px rgba(102, 102, 143, 0.521);
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+input, textarea {
+    color: #a7b3f8;
+    background-color: #1d0c5c63;
+    outline: none;
+    border: none;
+    font-size: large;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+button {
+    height: 50px;
+    padding: 0.75rem;
+    background-color: #6244e79f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 50px;
+    padding: 10px 40px;
+}
+
+button:hover {
+    background-color: #3718be;
+}
+
+
+.formulario-grupos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.formulario-grupos input,
+.formulario-grupos textarea {
+  width: 65%;
+  padding: 0.5rem;
+}
+
+.tipo-c {
+    font-size: 1.2rem;
+    color: #a7b3f8;
+    text-shadow: 1px 15px 5px rgba(255, 255, 255, 0.1);
+}
+#comentarios {
+    width: 300px;
+    height: 60px;
+    margin: 55px 0 0 0;
+    transform: translateY(15px);
+}
+#comentario {
+    margin-right: 25px;
+}
+.checkboxs, .radios {
+    outline: none;
+    border: none;
+    font-size: large;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-style: italic;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #a7b3f8;
+  border-radius: 50%; 
+  margin-right: 8px;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+}
+input[type="radio"]:checked::before,
+input[type="checkbox"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 15px;
+  height: 15px;
+  background-color: #797bf0;
+  border-radius: 50%; 
+}
+input[type="checkbox"] {
+  border-radius: 4px;
+}
+
+input[type="checkbox"]:checked::before {
+  border-radius: 2px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #a7b3f8;   
+  font-size: medium;
+}

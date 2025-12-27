@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de turismo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section id="principal">
+        <header id="encabezado">
+            <h1 id="titulo">AGENCIA DE TURISMO COKE</h1> 
+            <img id="logo"src="images/logo.png" alt="Logo de la Agencia" width="300" height="150">
+        </header>
+
+        <nav class="navegacion">
+            <ul>
+                <li><a class="nav-tx" href="index.html">Inicio</a></li>
+                <li><a class="nav-tx" href="destinos.html">Destinos</a></li>
+                <li><a class="nav-tx" href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav> 
+        <main> 
+            <div id="informacion">
+                <h2>Información de la Agencia</h2>
+                <p>Somos una <b>agencia de turismo</b> dedicada a ofrecer las <b>mejores experiencias</b> para el cliente. 
+                <br>
+                Contamos con un equipo de expertos listos para ayudarte a planificar tu próximo viaje.
+                <br>
+                <br>
+                Fundada en el año 1990, ofreciendo <b>los mejores viajes</b> para todo el mundo!
+                Estamos ubicados en el <b>corazón de la ciudad</b>, listos para atenderte.
+                <br>
+                Nuestros horarios son de lunes a viernes de 9:00 a 18:00.</p>
+            </div>
+            <section id="tipos-de-viaje">
+                <h2>Tipos de Viajes</h2>
+                <p>Ofrecemos una variedad de tipos de viajes para satisfacer tus necesidades:</p>
+                <ul>
+                    <li><b>Viajes de aventura</b></li>
+                    <li><b>Viajes culturales</b></li>
+                    <li><b>Viajes de relax</b></li>
+                    <li><b>Viajes familiares</b></li>
+                </ul>
+            </section>
+            <section id="ofertas">
+                <article id="peru" class="card">
+                    <h2>Oferta especial</h2>
+                    <p>Exclusivamente para socios, te dejamos un viaje a Lima Peru al <b>50%</b> de descuento!</p>
+                    <a href="https://youtu.be/g_igODn9Mbs?si=gSHJ3JUxT_dVwSxQ" target="_blank"><img class="img-oferta" src="images/peru.jpg" alt="Viaje a Lima" width="300" height="200"></a>
+                    <p>¡No te lo pierdas!</p>
+                </article>
+                <article id="miami" class="card">
+                    <h2>Oferta especial</h2>
+                    <p>Viaja al lugar de tus sueños! Miami con un <b>20%</b> de descuento.</p>
+                    <iframe width="250" height="200" src="https://www.youtube.com/embed/Dmhws_sBEic?si=nWnWThZxIqN1JPZZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>¡No te lo pierdas!</p>
+                </article>
+            </section>
+            <section id="video">
+                <h2 >¡Nuestras vistas!</h2>
+                <p>Te invitamos a ver una de las vistas que ofrecemos!</p>
+                <div class="video-contenedor">
+                    <video width="600" height="400" controls muted>
+                    <source src="videos/video_avionn.mp4"  type="video/mp4" >
+                </div>
+                <audio controls id="audio-bienvenida">
+                    <source src="audios/audio_bienvenida.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+            <aside class="asidebar">
+                <h3>No te olvides!</h3>
+                <p>Reservá con anticipación para conseguir los mejores precios y disponibilidad.</p>
+                <h3>Seguinos en redes</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">TikTok</a></li>
+                </ul>
+            </aside>
+            <section id="ubicacion">
+                <h2 class="subtitulo">Ubicación</h2>
+                <p>Obelisco Av. Corrientes, C1035 Cdad. Autónoma de Buenos Aires</p>
+                <iframe
+                width="600"
+                height="450"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAW9A8fK1ud0TW_bZ-YdCA_dd3IlhJ4oMc&q=Obelisco+Buenos+Aires+Argentina">
+                </iframe>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Jonathan Giacomini. Todos los derechos reservados.</p>
+        </footer>
+    </section>
+</body>
+</html>
